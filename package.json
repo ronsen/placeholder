@@ -1,0 +1,16 @@
+{
+	"name": "placeholder",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"author": "Ronsen",
+	"license": "MIT",
+	"type": "module",
+	"description": "Image placeholder with random background color.",
+	"dependencies": {
+		"canvas": "^3.0.1",
+		"express": "^4.21.2"
+	}
+}
