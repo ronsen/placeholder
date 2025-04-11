@@ -1,5 +1,6 @@
 import express from 'express';
 import { createCanvas } from 'canvas';
+import dotenv from 'dotenv';
 
 const app = express();
 app.use(express.json());
@@ -56,6 +57,8 @@ function getRandomColor() {
 	const b = Math.floor(Math.random() * 256); // Blue (0-255)
 	return `rgb(${r}, ${g}, ${b})`;
 }
+
+dotenv.config();
 
 // Start the server
 const PORT = process.env.PORT || 3000;
